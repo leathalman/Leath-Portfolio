@@ -1,6 +1,6 @@
 import React from "react";
-import { Avatar, Box, Text } from "grommet";
-import { ReactComponent as ProfileLogo } from "../animated.svg";
+import { Box, Text } from "grommet";
+import { ReactComponent as ProfileLogo } from "../images/animated.svg";
 
 class Profile extends React.Component {
   render() {
