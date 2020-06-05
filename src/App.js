@@ -36,7 +36,7 @@ function App() {
               >
                 Bio
               </Heading>
-              <Profile></Profile>
+              {/* <Profile></Profile> */}
             </Box>
             <Box>
               <Heading
@@ -44,10 +44,26 @@ function App() {
               >
                 Projects
               </Heading>
-              <Card title='Jotify'></Card>
-              <Card title='Jotify Website'></Card>
-              <Card title='DashButton'></Card>
-              <Card title='CBS Johns Creek'></Card>
+              <Card
+                title='Jotify'
+                content='Hello there!'
+                img={require("./jotifyIcon.png")}
+              ></Card>
+              <Card
+                title='Jotify Website'
+                content='This is some EXCELLENT exmaple content.'
+                img={require("./jotifyIcon.png")}
+              ></Card>
+              <Card
+                title='DashButton'
+                content='Huh, thats nice.'
+                img={require("./jotifyIcon.png")}
+              ></Card>
+              <Card
+                title='CBS Johns Creek'
+                content='Interesting...'
+                img={require("./jotifyIcon.png")}
+              ></Card>
             </Box>
           </Box>
         </Main>
