@@ -4,6 +4,9 @@ import { Box, Grommet, Heading, Main } from "grommet";
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
 import Card from "./components/Card";
+import About from "./components/About";
+
+import bio from "./content/About-Me";
 
 function App() {
   return (
@@ -29,12 +32,12 @@ function App() {
               top: "medium",
             }}
           >
-            <Box>
-              <Heading
-                style={{ lineHeight: 1.1, fontSize: 40, color: "#444444" }}
-              >
-                Bio
-              </Heading>
+            <Box
+              margin={{
+                top: "large",
+              }}
+            >
+              <About statements={bio} />
               {/* <Profile></Profile> */}
             </Box>
             <Box>
