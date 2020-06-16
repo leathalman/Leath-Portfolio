@@ -10,11 +10,11 @@ import bio from "./content/About-Me";
 
 function App() {
   return (
-    <Grommet full background='light-1'>
-      <Box>
-        <Box margin='auto' width='75%' justify='center'>
-          <NavBar headerTextColor='#444444'></NavBar>
-        </Box>
+    /* Not sure if light-1 or 2 works better here */
+    <Grommet background='light-2'>
+      {/* <Box margin='auto' width='90%'> */}
+      <Box margin='auto' width={{ min: "75%", max: "900px" }}>
+        <NavBar headerTextColor='#444444'></NavBar>
         <Main
           pad={{
             top: "medium",
@@ -22,9 +22,6 @@ function App() {
             left: "large",
             right: "large",
           }}
-          margin='auto'
-          width='75%'
-          justify='center'
         >
           <Header />
           <Box
