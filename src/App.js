@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import { Box, Grommet, Heading, Main } from "grommet";
 import NavBar from "./components/NavBar";
+// eslint-disable-next-line
 import Header from "./components/Header";
 import Card from "./components/Card";
 import About from "./components/About";
@@ -25,14 +26,10 @@ function App() {
           }}
         >
           {/* <Header /> */}
-          <Box width='100vh' height='50vh'>
+          <Box width='100vh' height='50vh' margin={{ top: "large" }}>
             <Slider />
           </Box>
-          <Box
-            margin={{
-              top: "medium",
-            }}
-          >
+          <Box>
             <Box
               margin={{
                 top: "large",

@@ -153,8 +153,8 @@ class Slider extends React.Component {
 
       // non used function (performance) (remove the 'return' to enable)
       bubblesMovement: function () {
-        return; // Yup, this one
-
+        return;
+        // eslint-disable-next-line
         var bubbles = this.container.find("#bubbles path"),
           count = 500;
 
@@ -164,7 +164,7 @@ class Slider extends React.Component {
           }
           $(this).attr("data-rand", getRand(15, 25));
         });
-
+        // eslint-disable-next-line
         this.container.on("mousemove", function (e) {
           bubbles.each(function () {
             if (!$(this).attr("data-rand")) {
