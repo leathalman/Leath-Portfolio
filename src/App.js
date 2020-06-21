@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import Header from "./components/Header";
 import Card from "./components/Card";
 import About from "./components/About";
+import Slider from "./components/Slider";
 
 import bio from "./content/About-Me";
 
@@ -23,7 +24,10 @@ function App() {
             right: "large",
           }}
         >
-          <Header />
+          {/* <Header /> */}
+          <Box width='100vh' height='50vh'>
+            <Slider />
+          </Box>
           <Box
             margin={{
               top: "medium",
