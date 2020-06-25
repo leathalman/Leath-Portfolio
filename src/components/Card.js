@@ -15,7 +15,7 @@ class Card extends React.Component {
   render() {
     return (
       <Box
-        margin={{ top: "medium" }}
+        // margin={{ top: "medium" }}
         style={{
           boxShadow: "0px 0px 5px 0px rgba(68,68,68,0.67)",
           borderRadius: "14px",

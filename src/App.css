@@ -34,10 +34,6 @@ body {
   transition: background-color 0.5s;
 }
 
-.textColorChange {
-  transition: color 0.5s;
-}
-
 /* Underline CSS */
 .underline {
   position: relative;
@@ -83,7 +79,8 @@ body {
 }
 
 .underline-permanent {
-  bottom: 10px;
+  position: relative;
+  bottom: 4vh;
   left: 0;
   right: 0;
   height: 2px;
