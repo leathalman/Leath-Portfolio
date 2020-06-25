@@ -1,3 +1,4 @@
+import "./Card.css";
 import React from "react";
 import { Box, Heading, Text } from "grommet";
 
@@ -8,8 +9,6 @@ class Card extends React.Component {
       title: props.title,
       content: props.content,
       img: props.img,
-      imgHeight: props.imgHeight,
-      imgWidth: props.imgWidth,
     };
   }
 
@@ -21,26 +20,33 @@ class Card extends React.Component {
           boxShadow: "0px 0px 5px 0px rgba(68,68,68,0.67)",
           borderRadius: "14px",
         }}
+        background='#ffffff'
       >
         <Box direction='row'>
-          <Box>
-            <img
-              src={this.props.img}
-              alt='Jotify Icon'
-              width={this.props.imgWidth}
-              height={this.props.imgHeight}
-            ></img>
+          <Box
+            width='30%'
+            height='auto'
+            margin={{
+              top: "",
+              bottom: "",
+              right: "medium",
+              left: "",
+            }}
+          >
+            <img src={this.props.img} alt='Jotify Icon'></img>
           </Box>
           <Box
             margin={{
               top: "xxsmall",
-              bottom: "small",
+              bottom: "medium",
               right: "small",
               left: "medium",
             }}
-            width='70%'
+            width='85%'
           >
-            <Heading level='3'>{this.props.title}</Heading>
+            <Heading responsive level='2'>
+              {this.props.title}
+            </Heading>
             <Text>{this.props.content}</Text>
           </Box>
         </Box>

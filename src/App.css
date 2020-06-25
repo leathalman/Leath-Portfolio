@@ -3,9 +3,23 @@
 
 html {
   height: 100%;
+  width: 100%;
   padding: 0;
   margin: 0;
 }
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px; /* remove scrollbar space /
+  background: transparent; / optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+/* ::-webkit-scrollbar-thumb {
+  background: #ff0000;
+} */
 
 body {
   font-family: "Source Sans Pro";
@@ -16,11 +30,12 @@ body {
   font-weight: 500;
 }
 
-a {
-  text-align: center;
-  font-weight: 500;
-  color: #28c6a9;
-  text-decoration: none;
+.colorChange {
+  transition: background-color 0.5s;
+}
+
+.textColorChange {
+  transition: color 0.5s;
 }
 
 /* Underline CSS */
