@@ -3,3 +3,14 @@ img {
   height: auto;
   border-radius: 14px;
 }
+
+.optionalstuff {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+@media (max-width: 629px) {
+  img#optionalstuff {
+    display: none;
+  }
+}

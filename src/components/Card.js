@@ -33,7 +33,11 @@ class Card extends React.Component {
               left: "",
             }}
           >
-            <img src={this.props.img} alt='Jotify Icon'></img>
+            <img
+              id='optionalstuff'
+              src={this.props.img}
+              alt='Jotify Icon'
+            ></img>
           </Box>
           <Box
             margin={{
