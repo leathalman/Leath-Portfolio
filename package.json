@@ -16,7 +16,8 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "styled-components": "^5.1.0",
-    "swiper": "^5.4.5"
+    "swiper": "^5.4.5",
+    "typestyle": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

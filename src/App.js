@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Slider from "./components/Slider";
 import Projects from "./components/Projects";
+import ProfilePicture from "./components/ProfilePicture";
 
 import bio from "./content/About-Me";
 
@@ -35,6 +36,9 @@ function App() {
             >
               <About statements={bio} />
               {/* <Profile></Profile> */}
+              <Box alignSelf='center'>
+                <ProfilePicture></ProfilePicture>
+              </Box>
             </Box>
           </Box>
         </Box>
