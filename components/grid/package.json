@@ -1,0 +1,30 @@
+{
+  "name": "@bit/jakeprins.react-milkshake.grid",
+  "version": "0.0.2",
+  "homepage": "https://bit.dev/jakeprins/react-milkshake/grid",
+  "main": "dist/Grid.js",
+  "dependencies": {
+    "react": "^16.9.0",
+    "styled-components": "^5.0.0-beta.8"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.2"
+    },
+    "overrides": {
+      "peedDependency": {
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0",
+        "styled-components": "^5.0.0-beta.9"
+      }
+    }
+  },
+  "peedDependency": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "styled-components": "^5.0.0-beta.9"
+  }
+}
