@@ -26,13 +26,13 @@ class NavBar extends React.Component {
             right: "medium",
           }}
         >
-          Contact
+          <a href='#contact'>Contact</a>
         </Text>
         <Text
           className='underline'
           style={{ fontSize: 22, color: this.props.headerTextColor }}
         >
-          Github
+          <a href='https://github.com/leathalman'>Github</a>
         </Text>
       </Header>
     );

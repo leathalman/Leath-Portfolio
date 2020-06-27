@@ -30,8 +30,9 @@ body {
   font-weight: 500;
 }
 
-.colorChange {
-  transition: background-color 0.5s;
+a {
+  text-decoration: none;
+  color: #444444;
 }
 
 /* Underline CSS */

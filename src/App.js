@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 
-import { Box, Grommet, Heading } from "grommet";
+import { Box, Grommet, Heading, Text } from "grommet";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Slider from "./components/Slider";
@@ -25,20 +25,27 @@ function App() {
       >
         <Box>
           <NavBar headerTextColor='#444444'></NavBar>
-          <Box width='100vh' height='50vh' margin={{ top: "large" }}>
+          <Box width='100vh' height='50vh' margin={{ top: "75px" }}>
             <Slider />
           </Box>
           <Box>
             <Box
               margin={{
                 top: "large",
+                bottom: "large",
               }}
             >
               <About statements={bio} />
-              {/* <Profile></Profile> */}
-              <Box alignSelf='center'>
+              <Heading margin={{ top: "xlarge" }}>About Me</Heading>
+              <Box alignSelf='center' margin={{ bottom: "60px" }}>
                 <ProfilePicture></ProfilePicture>
               </Box>
+              <Text>
+                I am a mobile developer specializing in the creation of native
+                iOS applications using Swift. I am also currently studying the
+                React JavaScript library to become a proficient web developer.
+                Check out my projects below!
+              </Text>
             </Box>
           </Box>
         </Box>
@@ -54,7 +61,7 @@ function App() {
             right: "large",
           }}
         >
-          <Heading size='large'>Projects</Heading>
+          <Heading>Projects</Heading>
           {/* <Box align='left' margin={{ top: "xlarge", bottom: "large" }}>
             <img
               alt='Projects'
