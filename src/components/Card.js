@@ -1,18 +1,20 @@
-import React, { useState } from 'react';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import React, { useState } from "react";
+import PropTypes from "prop-types";
+import styled from "styled-components";
+import { Button } from "grommet";
 
 /**
  * Card is a component that renders a card with a title and image
  * @param  {props} props
  */
-const Card = props => {
+const Card = (props) => {
   const [imageLoaded, setImageLoaded] = useState(false);
   return (
     <Wrapper
       className={props.className}
       centered={props.centered}
-      onClick={props.onClick}>
+      onClick={props.onClick}
+    >
       <Image
         src={props.image}
         centered={props.centered}
@@ -23,6 +25,16 @@ const Card = props => {
         <Title>{props.title}</Title>
         {props.text && <Text>{props.text}</Text>}
         {props.children}
+        <Button
+          primary
+          label='See More'
+          href={props.onClick}
+          color='#41658a'
+          hoverIndicator={{
+            color: "#ffffff",
+          }}
+          margin={{ top: "medium", bottom: "xsmall" }}
+        />
       </TextWrapper>
     </Wrapper>
   );
@@ -34,11 +46,11 @@ Card.propTypes = {
   text: PropTypes.string,
   centered: PropTypes.bool,
   children: PropTypes.object,
-  className: PropTypes.string
+  className: PropTypes.string,
 };
 
 Card.defaultProps = {
-  title: 'Example'
+  title: "Example",
 };
 
 export default Card;

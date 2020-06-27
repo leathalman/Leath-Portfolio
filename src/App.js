@@ -1,9 +1,8 @@
 import "./App.css";
 import React from "react";
 
-import { Box, Grid, Grommet, Heading, Main } from "grommet";
+import { Box, Grommet, Heading } from "grommet";
 import NavBar from "./components/NavBar";
-// eslint-disable-next-line
 import About from "./components/About";
 import Slider from "./components/Slider";
 import Projects from "./components/Projects";
@@ -22,12 +21,11 @@ function App() {
           left: "large",
           right: "large",
         }}
-        // background='black'
       >
         <Box>
           <NavBar headerTextColor='#444444'></NavBar>
           <Box width='100vh' height='50vh' margin={{ top: "large" }}>
-            {/* <Slider /> */}
+            <Slider />
           </Box>
           <Box>
             <Box
