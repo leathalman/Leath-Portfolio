@@ -12,16 +12,16 @@ class NavBar extends React.Component {
       <Header
         className='header-label'
         justify='end'
+        align='end'
         pad={{
           top: "large",
           bottom: "medium",
-          left: "medium",
-          right: "xlarge",
+          right: "xxsmall",
         }}
       >
         <Text
           className='underline'
-          style={{ fontSize: 20, color: this.props.headerTextColor }}
+          style={{ fontSize: 22, color: this.props.headerTextColor }}
           margin={{
             right: "medium",
           }}
@@ -30,7 +30,7 @@ class NavBar extends React.Component {
         </Text>
         <Text
           className='underline'
-          style={{ fontSize: 20, color: this.props.headerTextColor }}
+          style={{ fontSize: 22, color: this.props.headerTextColor }}
         >
           Github
         </Text>

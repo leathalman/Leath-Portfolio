@@ -46,7 +46,7 @@ function App() {
       <Box background='#41658a' overflow='hidden'>
         <Box
           margin='auto'
-          width={{ min: "75%", max: "600px" }}
+          width={{ min: "75%", max: "550px" }}
           pad={{
             top: "medium",
             bottom: "medium",
@@ -54,15 +54,15 @@ function App() {
             right: "large",
           }}
         >
-          <Heading
-            alignSelf='center'
-            style={{
-              borderBottom: "6px solid #ffffff",
-              textDecoration: "none",
-            }}
-          >
-            My Projects
-          </Heading>
+          <Heading size='large'>Projects</Heading>
+          {/* <Box align='left' margin={{ top: "xlarge", bottom: "large" }}>
+            <img
+              alt='Projects'
+              width='50%'
+              height='25%'
+              src={require("./images/projects.svg")}
+            />
+          </Box> */}
           <Projects />
           <Box>Hello there</Box>
         </Box>

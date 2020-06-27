@@ -100,6 +100,7 @@ class Slider extends React.Component {
         var bubblesGroup = this.container.find("#bubbles"),
           // colors = ['#03ee93','#ff0700','#ffe700','#5306de'];
           colors = ["#28c6a9", "#92a8d1", "#41658a"];
+        // colors = ["#28c6a9", "#92a8d1", "#41658a"];
 
         bubblesGroup.find("path").each(function () {
           var rand = getRand(0, colors.length);
@@ -208,9 +209,9 @@ class Slider extends React.Component {
           <div
             className='slide'
             count={0}
-            data-1='Wow'
-            data-2='Cool'
-            data-3='Info'
+            data-1='Swift Java'
+            data-2='Javascript'
+            data-3='Python Git'
           />
           <div
             className='slide'
@@ -230,8 +231,6 @@ class Slider extends React.Component {
         <svg
           version='1.1'
           id='home-animation'
-          xmlns='http://www.w3.org/2000/svg'
-          xmlnsXlink='http://www.w3.org/1999/xlink'
           width='2371.2px'
           height='901.1px'
           viewBox='0 0 2371.2 901.1'
