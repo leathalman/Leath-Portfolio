@@ -10,9 +10,9 @@ class NavBar extends React.Component {
   render() {
     return (
       <Header
-        className='header-label'
-        justify='end'
-        align='end'
+        className="header-label"
+        justify="end"
+        align="end"
         pad={{
           top: "large",
           bottom: "medium",
@@ -20,19 +20,19 @@ class NavBar extends React.Component {
         }}
       >
         <Text
-          className='underline'
+          className="underline"
           style={{ fontSize: 22, color: this.props.headerTextColor }}
           margin={{
             right: "medium",
           }}
         >
-          <a href='#contact'>Contact</a>
+          <a href="#contact">Contact</a>
         </Text>
         <Text
-          className='underline'
+          className="underline"
           style={{ fontSize: 22, color: this.props.headerTextColor }}
         >
-          <a href='https://github.com/leathalman'>Github</a>
+          <a href="https://github.com/leathalman">GitHub</a>
         </Text>
       </Header>
     );

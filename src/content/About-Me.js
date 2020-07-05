@@ -2,7 +2,7 @@ export default [
   {
     input: "Harrison.ExampleInfo",
     return:
-      '["<a href="mailto:hleath@me.com">hleath@me.com</a>", "<a rel="noopener" href="https://www.jotifyapp.com">Jotify</a>", "<a rel="noopener" href="https://github.com/leathalman">Github</a>"]',
+      '["<a href="mailto:hleath@me.com">hleath@me.com</a>", "<a rel="noopener" href="https://www.jotifyapp.com">Jotify</a>", "<a rel="noopener" href="https://github.com/leathalman">GitHub</a>"]',
   },
   {
     input: "Harrison.resume",

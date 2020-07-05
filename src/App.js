@@ -7,14 +7,15 @@ import About from "./components/About";
 import Slider from "./components/Slider";
 import Projects from "./components/Projects";
 import ProfilePicture from "./components/ProfilePicture";
+import Contact from "./components/Contact";
 
 import bio from "./content/About-Me";
 
 function App() {
   return (
-    <Grommet background='light-2'>
+    <Grommet background="light-2">
       <Box
-        margin='auto'
+        margin="auto"
         width={{ min: "75%", max: "900px" }}
         pad={{
           top: "medium",
@@ -24,8 +25,8 @@ function App() {
         }}
       >
         <Box>
-          <NavBar headerTextColor='#444444'></NavBar>
-          <Box width='100vh' height='50vh' margin={{ top: "75px" }}>
+          <NavBar headerTextColor="#444444"></NavBar>
+          <Box width="100vh" height="50vh" margin={{ top: "75px" }}>
             <Slider />
           </Box>
           <Box>
@@ -37,7 +38,7 @@ function App() {
             >
               <About statements={bio} />
               <Heading margin={{ top: "xlarge" }}>About Me</Heading>
-              <Box alignSelf='center' margin={{ bottom: "60px" }}>
+              <Box alignSelf="center" margin={{ bottom: "60px" }}>
                 <ProfilePicture></ProfilePicture>
               </Box>
               <Text>
@@ -50,9 +51,9 @@ function App() {
           </Box>
         </Box>
       </Box>
-      <Box background='#41658a' overflow='hidden'>
+      <Box background="#41658a" overflow="hidden">
         <Box
-          margin='auto'
+          margin="auto"
           width={{ min: "75%", max: "550px" }}
           pad={{
             top: "medium",
@@ -62,16 +63,21 @@ function App() {
           }}
         >
           <Heading>Projects</Heading>
-          {/* <Box align='left' margin={{ top: "xlarge", bottom: "large" }}>
-            <img
-              alt='Projects'
-              width='50%'
-              height='25%'
-              src={require("./images/projects.svg")}
-            />
-          </Box> */}
           <Projects />
-          <Box>Hello there</Box>
+        </Box>
+      </Box>
+      <Box background="light-2" overflow="hidden">
+        <Box
+          margin="auto"
+          width={{ min: "50%", max: "1050px" }}
+          pad={{
+            top: "medium",
+            bottom: "medium",
+            left: "large",
+            right: "large",
+          }}
+        >
+          <Contact />
         </Box>
       </Box>
     </Grommet>
