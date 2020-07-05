@@ -38,7 +38,7 @@ function App() {
             >
               <About statements={bio} />
               <Heading margin={{ top: "xlarge" }}>About Me</Heading>
-              <Box alignSelf="center" margin={{ bottom: "60px" }}>
+              <Box alignSelf="center" margin={{ top: "45px", bottom: "65px" }}>
                 <ProfilePicture></ProfilePicture>
               </Box>
               <Text>

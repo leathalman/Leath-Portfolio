@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { style } from "typestyle/lib";
 
 const profilePicture = style({
-  width: 150,
-  height: 150,
+  width: 200,
+  height: 200,
 
   img: {
     objectFit: "cover",
@@ -18,7 +18,7 @@ class ProfilePicture extends Component {
   render() {
     return (
       <div className={profilePicture}>
-        <img src={require("../images/profile.jpg")} alt='' />
+        <img src={require("../images/profile3.jpg")} alt="" />
       </div>
     );
   }
