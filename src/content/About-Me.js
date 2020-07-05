@@ -1,29 +1,31 @@
 export default [
   {
-    input: "Harrison.ExampleInfo",
+    input: "Harrison.contact",
     return:
-      '["<a href="mailto:hleath@me.com">hleath@me.com</a>", "<a rel="noopener" href="https://www.jotifyapp.com">Jotify</a>", "<a rel="noopener" href="https://github.com/leathalman">GitHub</a>"]',
+      '["<a href="mailto:hleath@me.com">hleath@me.com</a>", "<a rel="noopener" href="https://github.com/leathalman">GitHub</a>", "<a rel="noopener" href="https://www.instagram.com/harrisonleath/">Instagram</a>"]',
+  },
+
+  {
+    input: "Harrison.interests",
+    return: '["bible study", "tennis", "cooking", "programming"]',
+  },
+  {
+    input: "Harrison.skills",
+    return:
+      '["swift", "java", "html", "css", "javascript", "react", "python", "git"]',
   },
   {
     input: "Harrison.resume",
     return:
-      '"<a rel="noopener" href="/justinchi_resume.pdf" target="_blank">harrisonleath.pdf</a>"',
+      '["<a rel="noopener" href="/justinchi_resume.pdf" target="_blank">harrisonleath.pdf</a>"]',
   },
   {
-    input: "Harrison.interests",
-    return: '["one", "two", "three", "four"]',
-  },
-  {
-    input: "Harrison.education",
-    return: '["Super interesting Wesleyan thingy"]',
-  },
-  {
-    input: "Harrison.skills",
-    return: '["Java", "JavaScript", "Python", "React", "Swift, "git"]',
-  },
-  {
-    input: "Harrison.exampletwo",
+    input: "Harrison.exampleTwo",
     return:
       '["This is more example information", "Remeber to credit this guy in README"]',
+  },
+  {
+    input: "Harrison.exampleThree",
+    return: '["This is more example information"]',
   },
 ];

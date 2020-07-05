@@ -9,37 +9,39 @@ class Projects extends React.Component {
         <Card
           image={require("../images/jotify.jpg")}
           centered
-          onClick='https://apps.apple.com/us/app/jotify/id1469983730'
-          title='Jotify - iOS App'
-          text='Beautiful. Private. Simple. The classic privacy based iOS note-taking app. The fastest way to jot down notes on the go. Completely open source under the Apache-2.0 License.'
+          onClick="https://apps.apple.com/us/app/jotify/id1469983730"
+          title="Jotify - iOS App"
+          text={
+            "Jotify makes note taking easy with a beautiful user interface. Secure, simple, and blazing fast, Jotify is the perfect companion for your jots and reminders. Completely open source under the Apache-2.0 License."
+          }
         />
         <Card
           image={require("../images/connect.jpg")}
           centered
-          onClick='https://leathalman.github.io/CBSJohnsCreek/'
-          title='CBS Johns Creek Website'
-          text='The website for Community Bible Study Johns Creek. This version is avaliable open-soure.'
+          onClick="https://leathalman.github.io/CBSJohnsCreek/"
+          title="CBS Johns Creek Website"
+          text="The website for Community Bible Study Johns Creek which allows prospective members to sign up through Google Forms integration. This version is avaliable open soure."
         />
         <Card
           image={require("../images/jotify-gold.jpg")}
           centered
-          onClick='https://www.jotifyapp.com'
-          title='Official Jotify Website'
-          text='The offical Jotify website. You can check it out here.'
+          onClick="https://www.jotifyapp.com"
+          title="Official Jotify Website"
+          text="The offical website used to promote the Jotify iOS application. Check it out below."
         />
         <Card
           image={require("../images/firebase.jpg")}
           centered
-          onClick='https://github.com/leathalman/Swift-FirebaseMessager'
-          title='Swift Firebase Messenger'
-          text='A simple chat application written in swift which uses for Firebase for user authentication and storing messages. Completely open source.'
+          onClick="https://github.com/leathalman/Swift-FirebaseMessager"
+          title="Swift Firebase Messenger"
+          text="An open source application for cloud-based instant messaging. This application is written in Swift and uses Firebase for storing messages."
         />
         <Card
           image={require("../images/dash.jpg")}
           centered
-          onClick='https://github.com/leathalman/DashButton'
-          title='Custom IoT Dashbutton'
-          text='Use Python to enable actions with an Amaon Dash button. These are python scripts that I wrote which allow a user to assign any function they want on button press through IFTTT.'
+          onClick="https://github.com/leathalman/DashButton"
+          title="Custom IoT Dashbutton"
+          text="A script written in Python which enables customizable actions with an Amazon Dash Button. Actions are also user assignable through IFTTT."
         />
       </Grid>
     );

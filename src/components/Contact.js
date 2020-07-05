@@ -31,7 +31,9 @@ class Contact extends React.Component {
                 <a href="https://github.com/leathalman">GitHub</a>
               </Text>
               <Text>||</Text>
-              <Text className="underline">hleath@me.com</Text>
+              <Text className="underline">
+                <a href="mailto:hleath@me.com">hleath@me.com</a>
+              </Text>
               <Text>||</Text>
               <Text className="underline">
                 <a href="coming-soon">LinkedIn</a>
