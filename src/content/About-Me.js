@@ -7,7 +7,7 @@ export default [
 
   {
     input: "Harrison.interests",
-    return: '["bible study", "tennis", "cooking", "programming"]',
+    return: '["bible study", "tennis", "cooking", "programming", "running"]',
   },
   {
     input: "Harrison.skills",
@@ -20,12 +20,12 @@ export default [
       '["<a rel="noopener" href="/justinchi_resume.pdf" target="_blank">harrisonleath.pdf</a>"]',
   },
   {
-    input: "Harrison.exampleTwo",
+    input: "Harrison.extras",
     return:
       '["This is more example information", "Remeber to credit this guy in README"]',
   },
   {
-    input: "Harrison.exampleThree",
+    input: "Harrison.interesting",
     return: '["This is more example information"]',
   },
 ];

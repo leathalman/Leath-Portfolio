@@ -1,7 +1,8 @@
 import "./App.css";
-import React from "react";
 
+import React from "react";
 import { Box, Grommet, Heading, Text } from "grommet";
+
 import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Slider from "./components/Slider";
@@ -42,10 +43,13 @@ function App() {
                 <ProfilePicture></ProfilePicture>
               </Box>
               <Text>
-                I am a mobile developer specializing in the creation of native
-                iOS applications using Swift. I am also currently studying the
-                React JavaScript library to become a proficient web developer.
-                Check out my projects below!
+                Hey there! My name is Harrison Leath, and I am currently a
+                senior in high school. I have a passion for creating exciting
+                projects, so it's super convenient that I love programming. I
+                began developing watchfaces in C for the Pebble Smartwatch back
+                in 2014, and I've open sourced many of my projects since then!
+                Currently, I am busy supporting my iOS app, Jotify. Feel free to
+                contact me.
               </Text>
             </Box>
           </Box>
