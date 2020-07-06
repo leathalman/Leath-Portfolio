@@ -27,9 +27,9 @@ const Card = (props) => {
         {props.children}
         <Button
           primary
-          label='See More'
+          label="See More"
           href={props.onClick}
-          color='#41658a'
+          color="#41658a"
           hoverIndicator={{
             color: "#ffffff",
           }}
@@ -57,7 +57,7 @@ export default Card;
 
 const Wrapper = styled.div`
   max-width: 500px;
-  background: white;
+  background: #ffffff;
   cursor: pointer;
   border-radius: 5px;
   padding: 20px;
@@ -110,7 +110,7 @@ const Wrapper = styled.div`
 `;
 
 const Title = styled.h2`
-  font-size: 18px;
+  font-size: 20px;
   color: #333333;
   margin: 15px 0 5px;
   overflow: hidden;
@@ -168,5 +168,6 @@ const TextWrapper = styled.div`
 
 const Text = styled.p`
   margin: 10px 0;
-  color: #2f4f4f;
+  color: #444444;
+  font-weight: normal;
 `;

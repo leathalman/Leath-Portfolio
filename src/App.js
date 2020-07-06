@@ -55,7 +55,7 @@ function App() {
         <Box
           margin="auto"
           alignContent="center"
-          width={{ min: "70%", max: "500px" }}
+          width={{ min: "75%", max: "900px" }}
           pad={{
             top: "medium",
             bottom: "xlarge",
@@ -63,7 +63,7 @@ function App() {
             right: "large",
           }}
         >
-          <Heading>Projects</Heading>
+          <Heading margin={{ top: "large", bottom: "large" }}>Projects</Heading>
           <Projects />
         </Box>
       </Box>

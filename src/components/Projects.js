@@ -17,20 +17,6 @@ class Projects extends React.Component {
           }
         />
         <Card
-          image={require("../images/connect.jpg")}
-          centered
-          onClick="https://leathalman.github.io/CBSJohnsCreek/"
-          title="CBS Johns Creek Website"
-          text="The website for Community Bible Study Johns Creek which allows prospective members to sign up through Google Forms integration. This version is avaliable open soure."
-        />
-        <Card
-          image={require("../images/jotify-gold.jpg")}
-          centered
-          onClick="https://www.jotifyapp.com"
-          title="Official Jotify Website"
-          text="The offical website used to promote the Jotify iOS application. Check it out below."
-        />
-        <Card
           image={require("../images/firebase.jpg")}
           centered
           onClick="https://github.com/leathalman/Swift-FirebaseMessager"
@@ -43,6 +29,20 @@ class Projects extends React.Component {
           onClick="https://github.com/leathalman/DashButton"
           title="Custom IoT Dashbutton"
           text="A script written in Python which enables customizable actions with an Amazon Dash Button. Actions are also user assignable through IFTTT."
+        />
+        <Card
+          image={require("../images/connect.jpg")}
+          centered
+          onClick="https://leathalman.github.io/CBSJohnsCreek/"
+          title="CBS Johns Creek Website"
+          text="The website for Community Bible Study Johns Creek which allows prospective members to sign up through Google Forms integration. This version is avaliable open soure."
+        />
+        <Card
+          image={require("../images/jotify-gold.jpg")}
+          centered
+          onClick="https://www.jotifyapp.com"
+          title="Official Jotify Website"
+          text="The offical website used to promote the Jotify iOS application. Check it out below."
         />
       </Grid>
     );

@@ -12,7 +12,7 @@ class Contact extends React.Component {
     return (
       <Box margin="auto" width="100%">
         <Box pad={{ top: "medium", bottom: "large" }}>
-          <Text id="contact" size="40px" textAlign="center">
+          <Text id="contact" size="32px" textAlign="center">
             Contact Me!
           </Text>
         </Box>
