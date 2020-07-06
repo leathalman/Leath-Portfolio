@@ -54,10 +54,11 @@ function App() {
       <Box background="#41658a" overflow="hidden">
         <Box
           margin="auto"
-          width={{ min: "75%", max: "550px" }}
+          alignContent="center"
+          width={{ min: "70%", max: "500px" }}
           pad={{
             top: "medium",
-            bottom: "medium",
+            bottom: "xlarge",
             left: "large",
             right: "large",
           }}
@@ -69,7 +70,8 @@ function App() {
       <Box background="light-2" overflow="hidden">
         <Box
           margin="auto"
-          width={{ min: "50%", max: "1050px" }}
+          // width={{ min: "50%", max: "1050px" }}
+          width="100%"
           pad={{
             top: "medium",
             bottom: "medium",

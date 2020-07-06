@@ -1,5 +1,6 @@
+import "./Contact.css";
 import React from "react";
-import { Box, Footer, Heading, Text } from "grommet";
+import { Box, Text } from "grommet";
 
 class Contact extends React.Component {
   constructor(props) {
@@ -9,41 +10,48 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <Box>
-        <Footer
+      <Box margin="auto" width="100%">
+        <Box pad={{ top: "medium", bottom: "large" }}>
+          <Text id="contact" size="40px" textAlign="center">
+            Contact Me!
+          </Text>
+        </Box>
+        <Box
+          responsive
+          direction="row-responsive"
+          margin="auto"
+          gap="medium"
           pad={{
-            top: "large",
-            bottom: "90px",
+            top: "20px",
           }}
         >
-          <Heading id="contact" level="2" textAlign="center" margin="auto">
-            Contact Me!
-            <Box
-              responsive
-              direction="row"
-              margin="auto"
-              gap="medium"
-              pad={{
-                top: "90px",
-              }}
-            >
-              <Text className="underline">
-                <a href="https://github.com/leathalman">GitHub</a>
-              </Text>
-              <Text>||</Text>
-              <Text className="underline">
-                <a href="mailto:hleath@me.com">hleath@me.com</a>
-              </Text>
-              <Text>||</Text>
-              <Text className="underline">
-                <a href="coming-soon">LinkedIn</a>
-              </Text>
-            </Box>
-          </Heading>
-        </Footer>
-        <Text size="small" margin="auto" style={{ lineHeight: "3.5em" }}>
+          <Text textAlign="center">
+            <a className="underline" href="https://github.com/leathalman">
+              GitHub
+            </a>
+          </Text>
+          <Text className="block" textAlign="center">
+            ||
+          </Text>
+          <Text textAlign="center">
+            <a className="underline" href="mailto:hleath@me.com">
+              hleath@me.com
+            </a>
+          </Text>
+          <Text className="block" textAlign="center">
+            ||
+          </Text>
+          <Text textAlign="center">
+            <a className="underline" href="coming-soon">
+              LinkedIn
+            </a>
+          </Text>
+        </Box>
+        <Box pad={{ top: "20px", bottom: "large" }}></Box>
+        <Text size="small" margin="auto" pad={{ top: "large" }}>
           Made by Harrison Leath © {new Date().getFullYear()}
         </Text>
+        <Box pad={{ top: "25px" }}></Box>
       </Box>
     );
   }
