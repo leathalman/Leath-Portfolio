@@ -43,13 +43,13 @@ function App() {
                 <ProfilePicture></ProfilePicture>
               </Box>
               <Text>
-                Hey there! My name is Harrison Leath, and I am currently a
-                senior in high school. I have a passion for creating exciting
-                projects, so it's super convenient that I love programming. I
-                began developing watchfaces in C for the Pebble Smartwatch back
-                in 2014, and I've open sourced many of my projects since then!
-                Currently, I am busy supporting my iOS app, Jotify. Feel free to
-                contact me.
+                Hey there! I’m Harrison Leath, and I’m a senior in high school
+                with a passion for creating beautiful software. I’m currently
+                busy working on my iOS app, Jotify. My work is part of the 2020
+                Arctic Code Vault Program - meaning my software is sitting 250
+                meters underground in the Arctic, so that’s pretty cool. My work
+                has also been featured in various projects across GitHub (see
+                above). Feel free to drop by and say hi!
               </Text>
             </Box>
           </Box>
