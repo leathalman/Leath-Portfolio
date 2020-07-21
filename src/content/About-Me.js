@@ -21,7 +21,7 @@ export default [
   {
     input: "Harrison.favFood",
     return:
-      '["pasta", "cheesburgers", "spicy chicken sandwich", "frank\'s hot sauce"]',
+      '["pasta", "cheeseburgers", "spicy chicken sandwich", "frank\'s hot sauce"]',
   },
   {
     input: "Harrison.featuredIn",
