@@ -26,6 +26,6 @@ export default [
   {
     input: "Harrison.featuredIn",
     return:
-      '["<a rel="noopener" href="https://archiveprogram.github.com">Artic Code Vault Contributor</a>", "<a rel="noopener" href="https://github.com/dkhamsing/open-source-ios-apps">open-source-iOS-apps</a>", "<a rel="noopener" href="https://antranapp.github.io/IndieApps/">Indie Apps Showcase</a>"]',
+      '["<a rel="noopener" href="https://archiveprogram.github.com">Artic Code Vault Contributor</a>", "<a rel="noopener" href="https://github.com/dkhamsing/open-source-ios-apps">open-source-iOS-apps</a>", "<a rel="noopener" href="https://antranapp.github.io/IndieApps/">Indie Apps Showcase</a>", "<a rel="noopener" href="https://departures.to/">Departures.to</a>"]',
   },
 ];
