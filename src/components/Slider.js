@@ -209,9 +209,9 @@ class Slider extends React.Component {
           <div
             className="slide"
             count={0}
-            data-1="Creator"
-            data-2="of Jotify"
-            data-3=""
+            data-1="Founder of"
+            data-2="Leathal"
+            data-3="Ent. LLC"
           />
           <div
             className="slide"

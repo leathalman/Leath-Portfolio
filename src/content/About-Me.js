@@ -2,7 +2,7 @@ export default [
   {
     input: "Harrison.contact",
     return:
-      '["<a href="mailto:hleath@me.com">hleath@me.com</a>", "<a rel="noopener" href="https://github.com/leathalman">GitHub</a>", "<a rel="noopener" href="https://www.instagram.com/harrisonleath/">Instagram</a>"]',
+      '["<a href="mailto:h@harrisonleath.me">h@harrisonleath.me</a>", "<a rel="noopener" href="https://github.com/leathalman">GitHub</a>", "<a rel="noopener" href="https://www.instagram.com/harrisonleath/">Instagram</a>"]',
   },
   {
     input: "Harrison.skills",
@@ -26,6 +26,6 @@ export default [
   {
     input: "Harrison.featuredIn",
     return:
-      '["<a rel="noopener" href="https://archiveprogram.github.com">Artic Code Vault Contributor</a>", "<a rel="noopener" href="https://github.com/dkhamsing/open-source-ios-apps">open-source-iOS-apps</a>", "<a rel="noopener" href="https://antranapp.github.io/IndieApps/">Indie Apps Showcase</a>", "<a rel="noopener" href="https://departures.to/">Departures.to</a>"]',
+      '["<a rel="noopener" href="https://app.airport.community/app/recYWTR6ViNnoaF1C">Airport-Testflight App Store</a>", "<a rel="noopener" href="https://archiveprogram.github.com">Artic Code Vault Contributor</a>", "<a rel="noopener" href="https://github.com/dkhamsing/open-source-ios-apps">open-source-iOS-apps</a>", "<a rel="noopener" href="https://antranapp.github.io/IndieApps/">Indie Apps Showcase</a>", "<a rel="noopener" href="https://departures.to/">Departures.to</a>"]',
   },
 ];

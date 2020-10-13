@@ -34,8 +34,8 @@ class Contact extends React.Component {
             ||
           </Text>
           <Text textAlign="center">
-            <a className="underline" href="mailto:hleath@me.com">
-              hleath@me.com
+            <a className="underline" href="mailto:h@harrisonleath.me">
+              h@harrisonleath.me
             </a>
           </Text>
           <Text className="block" textAlign="center">
