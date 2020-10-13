@@ -43,13 +43,22 @@ function App() {
                 <ProfilePicture></ProfilePicture>
               </Box>
               <Text>
-                Hey there! I’m Harrison Leath, and I’m a senior in high school
-                with a passion for creating beautiful software. I’m currently
-                busy working on my iOS app, Jotify. My work is part of the 2020
-                Arctic Code Vault Program - meaning my software is sitting 250
-                meters underground in the Arctic, so that’s pretty cool. My work
-                has also been featured in various projects across GitHub (see
-                above). Feel free to drop by and say hi!
+                Hey there! I’m Harrison Leath, and I’m a student with a passion
+                for creating beautiful software. I founded my company,{" "}
+                <a
+                  className="underline"
+                  href="https://www.leathalenterprises.com"
+                >
+                  Leathal Enterprises LLC
+                </a>
+                , and have been hard at work supporting my iOS app,{" "}
+                <a className="underline" href="https://www.jotifyapp.com">
+                  Jotify
+                </a>
+                . Jotify has been featured by Apple in over 200 countries on the
+                App Store with thousands of users to date. My work has been a
+                part of various projects aross GitHub, and I'm always working on
+                something new! Feel free to drop by and say hi!
               </Text>
             </Box>
           </Box>
