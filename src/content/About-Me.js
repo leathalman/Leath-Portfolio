@@ -11,12 +11,12 @@ export default [
   },
   {
     input: "Harrison.interests",
-    return: '["bible study", "tennis", "cooking", "programming", "running"]',
+    return: '["tennis", "cooking", "programming", "running"]',
   },
   {
     input: "Harrison.resume",
     return:
-      '"<a rel="noopener" href="/harrisonleath_resume.pdf" target="_blank">harrisonleath.pdf</a>"',
+      '["<a rel="noopener" href="/harrisonleath_resume.pdf" target="_blank">harrisonleath.pdf</a>"]',
   },
   {
     input: "Harrison.favFood",
