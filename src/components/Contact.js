@@ -42,7 +42,7 @@ class Contact extends React.Component {
             ||
           </Text>
           <Text textAlign="center">
-            <a className="underline" href="coming-soon">
+            <a className="underline" href="https://www.linkedin.com/in/harrison-leath-2062191b2/">
               LinkedIn
             </a>
           </Text>
